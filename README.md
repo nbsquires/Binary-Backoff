@@ -12,27 +12,22 @@ This project was tested on Ubuntu 11.10
 **FILE MANIFEST:**
 
 *header files:*
-
 * bckff.h - Just a header file that includes some structs and function protocols
 
 *C files:*
-
 * backoff.c - Source code for the simulation of the backoff algorithms.
  
 *shell scripts:*
-
-	*backoff.sh - a shell script that runs the backoff program how ever many times you like. I only really
+* backoff.sh - a shell script that runs the backoff program how ever many times you like. I only really
 		      used this for testing/data collection.
 
 *Other:*
-
 * backoff - to execute the C code
 * makefile - compiles the C source code
 * Report.pdf - my report
 * results.dat - a file that printed out the final time slot when the program was run. This was used for data collection. The code that writes to the file is commented out.
 
 **How to run**:
-
 Simply type "make" into the terminal.
 
 In order to run the program you must type ./backoff, and then the number of stations, and which backoff
