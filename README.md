@@ -28,6 +28,7 @@ This project was tested on Ubuntu 11.10
 * results.dat - a file that printed out the final time slot when the program was run. This was used for data collection. The code that writes to the file is commented out.
 
 **How to run**:
+
 Simply type "make" into the terminal.
 
 In order to run the program you must type ./backoff, and then the number of stations, and which backoff
