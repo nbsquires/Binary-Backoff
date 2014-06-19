@@ -9,35 +9,40 @@ AUTHOR: Natasha Squires
 
 This project was tested on Ubuntu 11.10
 
-FILE MANIFEST:
+**FILE MANIFEST:**
 
-header files:
-	*bckff.h - Just a header file that includes some structs and function protocols
+*header files:*
 
-C files:
-	*backoff.c - Source code for the simulation of the backoff algorithms.
+* bckff.h - Just a header file that includes some structs and function protocols
 
-shell scripts:
+*C files:*
+
+* backoff.c - Source code for the simulation of the backoff algorithms.
+ 
+*shell scripts:*
+
 	*backoff.sh - a shell script that runs the backoff program how ever many times you like. I only really
 		      used this for testing/data collection.
 
-Other:
-	*backoff - to execute the C code
-	*makefile - compiles the C source code
-	*Report.pdf - my report
-	*results.dat - a file that printed out the final time slot when the program was run.
-		       This was used for data collection. The code that writes to the file is commented out.
+*Other:*
 
-How to run:
+* backoff - to execute the C code
+* makefile - compiles the C source code
+* Report.pdf - my report
+* results.dat - a file that printed out the final time slot when the program was run. This was used for data collection. The code that writes to the file is commented out.
+
+**How to run**:
 
 Simply type "make" into the terminal.
+
 In order to run the program you must type ./backoff, and then the number of stations, and which backoff
 algorithm.
-e.g. to run the program with 10 stations using the binary exponential backoff:
+
+* e.g. to run the program with 10 stations using the binary exponential backoff:
 	./backoff 10 bin
-e.g. to run the program with 5 stations using the fibonacci backoff:
+* e.g. to run the program with 5 stations using the fibonacci backoff:
 	./backoff 5 fib
 
-Issues?
+**Issues?**
 
 No known issues.
